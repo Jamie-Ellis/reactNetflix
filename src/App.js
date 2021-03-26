@@ -4,9 +4,11 @@ import './App.css';
 import './components/NavBar'
 import Home from './components/Home'
 import './components/Footer'
+import NetflixNavBar from './components/NavBar'
 function App() {
   return (
     <>
+    <NetflixNavBar />
     <Home/>
     </>
   );
