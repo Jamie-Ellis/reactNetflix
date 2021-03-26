@@ -4,10 +4,10 @@ function Home() {
   return (
     <div id="body">
       <div className="container-fluid">
-        <h5 id="caption" className="text-white mb-2">
+        <h5 id="caption" className="text-white mb-2  mx-2">
           Trending Now
         </h5>
-        <div className="row mb-5">
+        <div className="row mb-5  mx-2">
           <div className="col-12 col-sm-6 col-md-2 col-l-2 p-1">
             <img src="./img/1.png" className="img-fluid" alt="" />
           </div>
@@ -27,10 +27,10 @@ function Home() {
             <img src="./img/6.png" className="img-fluid" alt="" />
           </div>
         </div>
-        <h5 id="caption" className="text-white mb-2">
+        <h5 id="caption" className="text-white mb-2  mx-2">
           Watch It Again
         </h5>
-        <div className="row mb-5">
+        <div className="row mb-5  mx-2">
           <div className="col-12 col-sm-6 col-md-2 col-l-2 p-1">
             <img src="./img/7.png" className="img-fluid" alt="" />
           </div>
@@ -50,10 +50,10 @@ function Home() {
             <img src="./img/12.png" className="img-fluid" alt="" />
           </div>
         </div>
-        <h5 id="caption" className="text-white mb-2">
+        <h5 id="caption" className="text-white mb-2  mx-2">
           New Releases
         </h5>
-        <div className="row">
+        <div className="row  mx-2">
           <div className="col-12 col-sm-6 col-md-2 col-l-2 p-1">
             <img src="./img/3.png" className="img-fluid" alt="" />
           </div>
