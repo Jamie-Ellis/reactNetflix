@@ -2,9 +2,11 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
-      <div className="container-fluid mt-5">
-        <h5 className="text-white mb-2">Trending Now</h5>
+    <div id="body">
+      <div className="container-fluid">
+        <h5 id="caption" className="text-white mb-2">
+          Trending Now
+        </h5>
         <div className="row mb-5">
           <div className="col-12 col-sm-6 col-md-2 col-l-2 p-1">
             <img src="./img/1.png" className="img-fluid" alt="" />
@@ -25,7 +27,9 @@ function Home() {
             <img src="./img/6.png" className="img-fluid" alt="" />
           </div>
         </div>
-        <h5 className="text-white mb-2">Watch It Again</h5>
+        <h5 id="caption" className="text-white mb-2">
+          Watch It Again
+        </h5>
         <div className="row mb-5">
           <div className="col-12 col-sm-6 col-md-2 col-l-2 p-1">
             <img src="./img/7.png" className="img-fluid" alt="" />
@@ -46,7 +50,9 @@ function Home() {
             <img src="./img/12.png" className="img-fluid" alt="" />
           </div>
         </div>
-        <h5 className="text-white mb-2">New Releases</h5>
+        <h5 id="caption" className="text-white mb-2">
+          New Releases
+        </h5>
         <div className="row">
           <div className="col-12 col-sm-6 col-md-2 col-l-2 p-1">
             <img src="./img/3.png" className="img-fluid" alt="" />
