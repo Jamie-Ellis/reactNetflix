@@ -83,7 +83,7 @@ class Home extends React.Component {
             className="row row-cols-sm-2 row-cols-md-4 row-cols-lg-6 mb-5"
           >
             {this.state.movies.map((movie) => (
-              <Col>
+              <Col className="my-2">
                 <Card key={movie.Title} style={{border : 'none'}}>
                   <Card.Img
                   style={{height : '150px'}}
